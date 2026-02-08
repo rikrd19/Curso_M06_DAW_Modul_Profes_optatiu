@@ -1,0 +1,20 @@
+# --- Archivos del Sistema Operativo (Mac/Windows) ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Entornos Virtuales ---
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- IDEs y Editores ---
+.vscode/
+.idea/
