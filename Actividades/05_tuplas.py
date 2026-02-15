@@ -33,14 +33,14 @@ my_sum_tuple = my_tuple + my_other_tuple
 print(my_sum_tuple)
 
 print("\n------------ convertir una tupla en lista ------------") 
-my_tuple = list(my_tuple)
-print(type(my_tuple))
+my_tuples = list(my_tuples)
+print(type(my_tuples))
 
-my_tuple[2] = "Ilerna"
+my_tuple2[2] = "Ilerna"
 
-my_tuple.insert(1, "Azul")
+my_tuples.insert(1, "Azul")
 
-print(my_tuple)
+print(my_tuples)
 
 
 print("""\n---  operador 'del' sirve para eliminar elementos o variables
