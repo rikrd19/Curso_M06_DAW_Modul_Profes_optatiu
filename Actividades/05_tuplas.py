@@ -1,11 +1,10 @@
 print("\n ***** Tuplas *****")
 
 print("\n---------------- constructor tuple() -----------------")
-my_tuple = tuple((35, 1.72, "Ricardo", "Lopez"))
+my_tuple = (35, 1.72, "Ricardo", "Lopez")
 
 print(my_tuple)
 print(type(my_tuple))
-
 print(my_tuple[0])
 print(my_tuple[-1])
 
@@ -33,10 +32,10 @@ my_sum_tuple = my_tuple + my_other_tuple
 print(my_sum_tuple)
 
 print("\n------------ convertir una tupla en lista ------------") 
-my_tuples = list(my_tuples)
+my_tuples = list(my_tuple)
 print(type(my_tuples))
 
-my_tuple2[2] = "Ilerna"
+my_tuples[2] = "Ilerna"
 
 my_tuples.insert(1, "Azul")
 
