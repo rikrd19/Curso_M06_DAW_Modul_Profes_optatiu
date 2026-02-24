@@ -78,7 +78,7 @@ no realizándose las operaciones Python las acepta y la respuesta será un strin
 def sum_twos_values(first_number: int, second_number: int):
     print(first_number + second_number)
 
-
+# se declaron int pero se colocan valores Strings no realizandose la operacion
 sum_twos_values("5", "7")
 
 print("-" * 60)
@@ -96,14 +96,14 @@ def sum_two_values_with_return(firsts_value, second_value):
     return firsts_value + second_value
 
 
-sum_two_values_with_return(10, 5)
+print("El resultado de la suma es: ", sum_two_values_with_return(10, 5))
 
 
 print("-" * 60)
 print("---- Guardar el valor devuelto por una función  ----")
 
 my_result = sum_two_values_with_return(10, 5)
-print(my_result)
+print("El resultado de la suma es: ", my_result)
 
 
 print("-" * 60)
@@ -117,10 +117,10 @@ cadena de texto y mostrarlos en pantalla.
 
 
 def print_name(name, surname):
-    print(f"{name}{surname}")
+    print(f"{name} {surname}")
 
 
-print("Lopez", "Geral")
+print_name("Lopez", "Geral")
 
 print("-" * 60)
 print(
@@ -133,7 +133,7 @@ print(
 
 
 def prin_name(name, surname):
-    print(f"{name}{surname}")
+    print(f"{name} {surname}")
 
 
 prin_name(surname="Lopez", name="Geral")

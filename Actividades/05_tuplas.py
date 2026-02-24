@@ -50,6 +50,6 @@ print("""del my_tuple[2] *** No permite eliminar el elemento
 las tuplas no se modifican o permite agregar elementos\n""")
 del  my_tuple
 print ("""print(my_tuple) ** NameError: name 'my_tuple' is not defined
-porque la toda la variable fue eliminada \n""")
+porque toda la variable fue eliminada \n""")
 
 

@@ -5,7 +5,7 @@ print(
         elementos que recorrer, automatizando la repetición. 
 """)
 
-print(" ** Tipo 'while' - repite mientras una condicion sea verdadera **")
+print("** Tipo 'while' - repite mientras una condicion sea verdadera **")
 
 # incorrecto --> la condicion nunca cambia, bucle infinito
 
@@ -51,12 +51,13 @@ while my_condition < 10:
     print(my_condition)
     my_condition += 2
 
+# If FUERA del while: evalúa valor final
 if my_condition == 10:
     print("Mi condicion es igual a 10")
 else:
     print("Mi condición es mayor o igual que 10")
 
-print("La ejecución continúa")
+print("Termino el bucle")
 
 
 print(

@@ -8,7 +8,7 @@ print("""\n----- Conjunto 'set' es una colección de elementos -----
 """)
 
 my_set = set()
-my_other_set = {}
+my_other_set = {} # si se usa llave vacia python la interpreta como diccionario
 
 print(type(my_set))
 print(type(my_other_set))

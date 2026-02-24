@@ -33,9 +33,9 @@ my_dict = {
 
 print("\n --- funcion len(): cuenta los elementos reales del contenedor ---")
 print(len(my_other_dict))
-print(my_dict)
+print(len(my_dict))
 
-print("\n --- Ventajas de los diccionarios permiten acceder directamente ---")
+print("\n --- Ventajas de los diccionarios permiten acceder directamente a su valor ---")
 print(my_dict["Nombre"])
 
 print("\n --- modificar un valor en un diccionario ---")
