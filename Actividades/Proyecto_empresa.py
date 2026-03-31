@@ -153,8 +153,8 @@ tiene_membresia = tiene_membresia_input == "sí" or tiene_membresia_input == "si
 
 #Descuento 1: Jovenes o estudiantes
 if es_estudiante or es_joven:
-  descuento_total += descuento_estudiante
-  print("\tDescuento joven/estudiante aplicado: 15%")
+    descuento_total += descuento_estudiante
+    print("\tDescuento joven/estudiante aplicado: 15%")
 
 
 #Descuento 2: Adultos Mayores

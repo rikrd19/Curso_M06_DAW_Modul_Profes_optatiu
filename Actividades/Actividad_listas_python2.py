@@ -1,13 +1,12 @@
 # Actividad: Gestionamos información con Listas en Python
 # Objetivo:
-# Practicar la creación y manipulación de listas en Python 
+# Practicar la creación y manipulación de listas en Python
 # aplicando operaciones
 # básicas, métodos integrados y acceso mediante índices.
 # Instrucciones:
 
 # 1. Crea un nuevo archivo en tu entorno de trabajo llamado
 # actividad_listas2.py.
-
 
 
 # 2. Declara una lista llamada precios que contenga al menos seis valores
@@ -91,7 +90,8 @@ print(lista_precios)
 
 # - Usa .pop() para eliminar el último precio e imprimir el valor eliminado.
 print("\n------ Eliminando información específica con .pop() ----------\n")
-print(lista_precios.pop())
+lista_precios.pop()
+# print(lista_precios.pop())
 print("Lista actual: ", lista_precios)
 
 
@@ -163,12 +163,15 @@ print("Después de agregar un nuevo lenguaje: ", lenguajes_programacion)
 del lenguajes_programacion[0]
 print("Después de eliminar el primer lenguaje: ", lenguajes_programacion)
 
-    
-# Resultado esperado:
 
-# El programa debe:
-# -  Mostrar el contenido y tipo de las listas correctamente.
-# -  Modificar, eliminar y agregar elementos sin errores.
-# - Combinar listas y aplicar correctamente métodos como .append(), .insert(),
-# .remove(), .pop(), .count(), .copy(), .clear(), .sort() y .reverse().
-# - Demostrar comprensión del acceso mediante índices positivos y negativos.
+
+"""
+Resultado esperado:
+
+El programa debe:
+-  Mostrar el contenido y tipo de las listas correctamente.
+-  Modificar, eliminar y agregar elementos sin errores.
+- Combinar listas y aplicar correctamente métodos como .append(), .insert(),
+.remove(), .pop(), .count(), .copy(), .clear(), .sort() y .reverse().
+- Demostrar comprensión del acceso mediante índices positivos y negativos.
+"""

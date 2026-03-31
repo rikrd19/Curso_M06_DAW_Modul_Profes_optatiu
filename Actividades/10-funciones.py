@@ -67,16 +67,16 @@ sum_two_values(54754, 71231)
 sum_two_values(1.4, 5.2)  # tipo float #
 
 print("-" * 60)
-print(
-    """ 
+
+""" 
 ** Si se declara los valores numéricos como strings así serán considerados
 no realizándose las operaciones Python las acepta y la respuesta será un string.
 """
-)
 
 
 def sum_twos_values(first_number: int, second_number: int):
     print(first_number + second_number)
+
 
 # se declaron int pero se colocan valores Strings no realizandose la operacion
 sum_twos_values("5", "7")

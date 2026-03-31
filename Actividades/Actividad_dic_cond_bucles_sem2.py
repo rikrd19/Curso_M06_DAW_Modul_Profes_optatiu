@@ -85,11 +85,12 @@ for nombre, datos in alumnos.items():
 print("\n******** Parte 5 - While con Menú ********\n")
 
 while True:
-    print("\n--- MENÚ ---")
-    print("1. Mostrar alumnos")
-    print("2. Buscar alumno")
-    print("3. Añadir alumno")
-    print("4. Salir")
+    print("""
+    \n--- MENÚ ---
+    1. Mostrar alumnos
+    2. Buscar alumno
+    3. Añadir alumno
+    4. Salir""")
 
     opcion = input("Elige una opción: ")
 
