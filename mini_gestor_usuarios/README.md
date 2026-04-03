@@ -50,6 +50,16 @@ Si un dato no es válido, se lanza `ValueError` con un mensaje claro y el progra
 - **`__str__`:** define la representación en texto del objeto (lo que se ve al imprimir un `Usuario`).
 - **Excepciones en `main.py`:** al crear usuario se usa `try`, `except ValueError`, `except Exception`, `else` y `finally` para cumplir el enunciado y diferenciar errores de validación de errores inesperados.
 
+## Capturas de pantalla
+
+Las capturas de terminal están reunidas en un PDF dentro del proyecto:
+
+- [Abrir PDF de capturas](./docs/Captura_Mini_Gestor_Usuarios.pdf)
+
+El archivo original estaba en Descargas; en el repositorio se guarda como `docs/Captura_Mini_Gestor_Usuarios.pdf` para poder versionarlo y enlazarlo desde aquí.
+
+**Nota:** En Markdown, un PDF no se “pega” como imagen con `![...](...)` (eso sirve para `.png` / `.jpg`). Para un PDF se usa un **enlace** como el de arriba: `[texto visible](./ruta/al/archivo.pdf)`.
+
 ## Autor
 
 Proyecto individual realizado por Ricardo Avila B. — módulo DAW Optativa (Programación en Python).
